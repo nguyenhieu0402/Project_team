@@ -5,7 +5,7 @@ void setup()
 {
     Serial.begin(115200);
     EEPROM.begin(512); 
-    init();
+    setupProvisioning();
 }
 
 void loop() {
