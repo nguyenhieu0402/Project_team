@@ -5,8 +5,8 @@
 #include "WiFi.h"
 #include <EEPROM.h>
 
-#define SSID_LENGTH 32
-#define PASSWORD_LENGTH 32
+#define SSID_LENGTH 10
+#define PASSWORD_LENGTH 10
 #define MAX_SSID_COUNT 5
 
 const char* pop = "abcd1234";
